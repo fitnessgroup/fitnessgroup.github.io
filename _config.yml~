@@ -2,7 +2,9 @@ gems:
     - jekyll-redirect-from
 
 navigation:
-    - title: 欢迎加入健身一族
+    - title: Home  
       url: /index.html
-    - title: Exercise Log
+    - title: Log An Activity 
       url: /log.html
+    - title: Exercise Log
+      url: /exercises.html

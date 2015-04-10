@@ -4,5 +4,7 @@ gems:
 navigation:
     - title: Home  
       url: /index.html
-    - title: Exercise Log  
+    - title: Log An Activity 
       url: /log.html
+    - title: Exercise Log
+      url: /exerciseslog.html
