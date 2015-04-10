@@ -1,6 +1,8 @@
 ---
 title: "练翘臀不粗腿，女神带你倾听自己身体的声音！"
 date: 2015-04-08
+categories:
+    - bodyweight
 redirect_to:
  - http://mp.weixin.qq.com/s?__biz=MzA5NDEyOTMxMw==&mid=205196392&idx=3&sn=4066eb0fc3ea1192ffd3a7db88ba235e&scene=1&key=b2574200810f04e803d66878b5b9e5f894ac548e525e1df248cd5f44a59fb0d71ce45dd0171ea96717e06693de795d84&ascene=0&uin=NTI1OTI4MDU1&devicetype=iMac+MacBookPro5%2C5+OSX+OSX+10.10.2+build(14C1514)&version=11020012&pass_ticket=17gckPxhQpsXqI01BOL4B6RQZU4AQ9iqBLOWluM1ttFpYwSQds0k%2FxMjVrg2iuJ%2B
 ---

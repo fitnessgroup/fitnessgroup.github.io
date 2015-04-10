@@ -1,6 +1,8 @@
 ---
 title: "医生教你5动作：“何以琛”的翘臀，这个可以有"
 date: 2015-04-08
+categories:
+    - bodyweight
 redirect_to:
  - http://mp.weixin.qq.com/s?__biz=MzA3NjY3NjYwMQ==&mid=204803880&idx=2&sn=f2dbeedf1e072cac4b6309f7f391bb75&scene=1&key=b2574200810f04e8c1cd6b309d91954b808f715af2717462eaaeff5daf7635a61207e941bf29340e2d221cfd047692ea&ascene=0&uin=NTI1OTI4MDU1&devicetype=iMac+MacBookPro5%2C5+OSX+OSX+10.10.2+build(14C1514)&version=11020012&pass_ticket=17gckPxhQpsXqI01BOL4B6RQZU4AQ9iqBLOWluM1ttFpYwSQds0k%2FxMjVrg2iuJ%2B
 ---
