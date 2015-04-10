@@ -1,11 +1,8 @@
 gems:
     - jekyll-redirect-from
 
-categories:
-    - postsAbs
-    - postsBodyFats
-    - postsBodyWeight
-    - postsHIIT
-    - postsInjuryPrevention
-    - postsRunning
-    - postsWeightTrain
+navigation:
+    - title: 欢迎加入健身一族
+      url: /index.html
+    - title: Exercise Log
+      url: /log.html

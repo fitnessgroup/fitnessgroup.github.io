@@ -423,3 +423,10 @@ Small Device Styles
   }
 
 }
+
+/************************
+ * Form input stype
+ * *********************/
+input, select, textarea {
+    font-size: 200%;
+}

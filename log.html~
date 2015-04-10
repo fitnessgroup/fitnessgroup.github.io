@@ -1,0 +1,46 @@
+---
+layout: default
+---
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="submit.js"></script>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+            <a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>来记录一下吧</h2>
+        
+        <form id="myform" name="myform">
+            <!--WeChat ID:<br> -->
+            <input id="name" type="text" name="name" placeholder="WeChat ID" size=60%><br>
+            <!--Exercise Date: mm/dd/yyyy <br>-->
+            <input id="date" type="text" name="date" placeholder="Exercise Date mm/dd/yyyy" size=60%><br>
+            <!--Exercise Type: <br>-->
+            <input id="exercise" type="text" name="exercise" placeholder="Exercise Type" size=60%><br>
+            <!--Duration/Count:<br>-->
+            <input id="duration" type="text" name="duration" placeholder="duration/count" size=60%><br>
+            <input type="button" onclick="send();" value="Submit">
+        </form>
+        
+        <script>
+            var today = new Date();
+            var dd = today.getDate();
+            var mm = today.getMonth()+1; //January is 0!
+            var yyyy = today.getFullYear();
+
+            if(dd<10) {
+                dd='0'+dd
+            } 
+
+            if(mm<10) {
+                mm='0'+mm
+            } 
+
+            today = mm+'/'+dd+'/'+yyyy;
+
+            window.onload = function() {
+                document.getElementById('date').value = today;
+            }
+        </script>
+      </section>
+   </div>
