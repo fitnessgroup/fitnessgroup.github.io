@@ -13,16 +13,20 @@ layout: default
         <form id="myform" name="myform">
             <!--WeChat ID:<br> -->
             <br>
-            <input id="name" type="text" name="name" placeholder="WeChat ID" size=60%><br>
+            <input id="name" type="text" name="name" placeholder="WeChat ID"><br>
             <!--Exercise Date: mm/dd/yyyy <br>-->
             <br>
-            <input id="date" type="text" name="date" placeholder="Exercise Date mm/dd/yyyy" size=60%><br>
+            <input id="date" type="text" name="date" placeholder="Exercise Date mm/dd/yyyy"><br>
             <!--Exercise Type: <br>-->
             <br>
-            <input id="exercise" type="text" name="exercise" placeholder="Exercise Type" size=60%><br>
+            <input id="exercise" type="text" name="exercise" placeholder="Exercise Type"><br>
             <!--Duration/Count:<br>-->
             <br>
-            <input id="duration" type="text" name="duration" placeholder="duration/count" size=60%><br>
+            <input id="duration" type="text" name="duration" placeholder="duration/count"><br>
+<<<<<<< HEAD
+=======
+			<br>
+>>>>>>> FETCH_HEAD
             <input type="button" onclick="send();" value="Submit">
         </form>
         
