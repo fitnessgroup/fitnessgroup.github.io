@@ -1,0 +1,16 @@
+gems:
+    - jekyll-redirect-from
+
+navigation:
+    - title: 主页  
+      url: /index.html
+    - title: 参考信息
+      url: /info.html
+    - title: 健身资料
+      url: /reference.html
+    - title: 地区活动
+      url: /activities.html
+    - title: 录入健身纪录
+      url: /log.html
+    - title: 查看健身纪录
+      url: /exerciseslog.html

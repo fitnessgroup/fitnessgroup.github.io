@@ -1,0 +1,21 @@
+---
+layout: default
+---
+      <section id="main_content" class="inner">
+        <h2>
+            <a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>欢迎加入健身一族</h2>
+
+        <h3>通知：</h3>
+        <ul id="span4">
+            {% for post in site.categories.announcements %}
+            <!-- <li> -->
+            <h5>
+                <a id="posts" class="anchor" href="{{ post.url }}">{{ post.title }}<span class="octicon octicon-link"></span></a></h5>
+            <p>{{ post.excerpt }}</p>
+            <!-- </li> -->
+            {% endfor %}
+        </ul>
+
+      </section>
+   </div>
+
