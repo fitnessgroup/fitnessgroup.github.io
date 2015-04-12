@@ -442,6 +442,6 @@ Small Device Styles
 /************************
  * Form input stype
  * *********************/
-input, select, textarea {
-    font-size: 200%;
+input, select, textarea, input[type=button] {
+    font-size: 150%;
 }
