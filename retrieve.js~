@@ -1,0 +1,3 @@
+var request = new XMLHttpRequest();
+request.open("GET", "https://api.mongolab.com/api/1/databases/fitnessdb/collections/fitnessrecord?apiKey=7IhjRbwiIXy1Y2kOl6HE2LiNqQf_LQEl");
+request.send(null);

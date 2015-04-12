@@ -1,0 +1,11 @@
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <sider id="side_bar" class="side">
+        {% for link in site.navigation %}{% assign current = nil %}{% if page.url contains link.url %}{% assign current = 'current' %}{% endif %}
+        <p>
+        <a class="side_text" href="{{ site.url }}{{ link.url }}">{{ link.title }}</a> &nbsp;&nbsp;
+        </p>
+        {% endfor %} 
+      </sider>
+
+

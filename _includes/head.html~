@@ -25,6 +25,10 @@
           <img src="images/fitness-running.jpg" style="height:100px">
           <img src="images/fitness-tennis.jpeg" style="height:100px">
           <img src="images/fitness-clip.jpg" style="height:100px">
+          <p></p>
+          {% for link in site.navigation %}{% assign current = nil %}{% if page.url contains link.url %}{% assign current = 'current' %}{% endif %}
+          <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a> &nbsp;&nbsp;
+          {% endfor %} 
         </header>
     </div>
 

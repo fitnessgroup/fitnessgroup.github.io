@@ -1,0 +1,19 @@
+---
+layout: default
+---
+      <section id="main_content" class="inner">
+        <h2>
+            <a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>地区活动</h2>
+        <ul id="span4">
+            {% for post in site.categories.activities %}
+            <!-- <li> -->
+            <h5>
+                <a id="posts" class="anchor" href="{{ post.url }}">{{ post.title }}<span class="octicon octicon-link"></span></a></h5>
+            <p>{{ post.excerpt }}</p>
+            <!-- </li> -->
+            {% endfor %}
+        </ul>
+
+      </section>
+   </div>
+

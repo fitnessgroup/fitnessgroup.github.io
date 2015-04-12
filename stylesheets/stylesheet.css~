@@ -21,7 +21,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, sider {
   margin: 0;
   padding: 0;
   border: 0;
@@ -31,7 +31,8 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section,
+sider {
   display: block;
 }
 
@@ -123,6 +124,10 @@ a:hover, a:focus {text-decoration: underline;}
 footer a {
   color: #F2F2F2;
   text-decoration: underline;
+}
+
+sider a {
+  color: #F2F2F2;
 }
 
 em {
@@ -271,6 +276,13 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+.side {
+  float: left;
+  width: 13%;
+  padding: 10px;
+  background: #212121;
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
@@ -355,13 +367,16 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #212121;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
 
 #main_content {
+  padding-left:3%;
   padding-top: 40px;
+  padding-right:3%;
+  background: #f2f2f2;
 }
 
 #footer_wrap {
@@ -422,4 +437,11 @@ Small Device Styles
     font-size: 11px;
   }
 
+}
+
+/************************
+ * Form input stype
+ * *********************/
+input, select, textarea {
+    font-size: 200%;
 }
