@@ -6,7 +6,6 @@ layout: default
             <a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Under Construction
         </h2>
 
-        <div id="myTable"> </div>
         <script src="retrieve.js"></script>
       </section>
    </div>
