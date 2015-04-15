@@ -12,6 +12,9 @@ $.fn.serializeObject = function()
             o[this.name] = this.value || '';
         }
     });
+    o['active'] = true;
+    //date = new Date();
+    //o['submissionData'] = date;
     return o;
 };
 

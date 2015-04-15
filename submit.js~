@@ -12,6 +12,9 @@ $.fn.serializeObject = function()
             o[this.name] = this.value || '';
         }
     });
+    o['active'] = true;
+    date = new Date();
+    o['submissionData'] = date;
     return o;
 };
 
@@ -21,4 +24,5 @@ var send = function(){
 	xhr.open("POST", "https://api.mongolab.com/api/1/databases/fitnessdb/collections/fitnessrecord?apiKey=7IhjRbwiIXy1Y2kOl6HE2LiNqQf_LQEl", true);
 	xhr.setRequestHeader("Content-Type", "application/json");
 	xhr.send(json);
+    window.alert("Thanks! Your activity has been successfully logged.");
 }
