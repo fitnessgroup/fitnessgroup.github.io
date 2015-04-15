@@ -1,38 +1,3 @@
-var getADate = function(date, i){ //return date - i day: i=0 -> today
-    date.setDate(date.getDate() - i);
-    var dd = date.getDate();
-    var mm = date.getMonth()+1; //January is 0!
-    var yyyy = date.getFullYear();
-
-    if(dd<10) {
-        dd='0'+dd
-    } 
-
-    if(mm<10) {
-        mm='0'+mm
-    } 
-    
-    var today = mm+'/'+dd+'/'+yyyy;
-    return today;
-}
-
-var getTxtDate = function(date, i){ //return date - i day: i=0 -> today
-    date.setDate(date.getDate() - i);
-    var dd = date.getDate();
-    var mm = date.getMonth()+1; //January is 0!
-
-    if(dd<10) {
-        dd='0'+dd
-    } 
-
-    if(mm<10) {
-        mm='0'+mm
-    } 
-    
-    var today = mm+'/'+dd;
-    return today;
-}
-
 var parseResponse = function(json){
     consold.log(json)
 }

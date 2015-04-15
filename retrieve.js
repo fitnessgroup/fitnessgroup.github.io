@@ -33,7 +33,13 @@ var getTxtDate = function(date, i){ //return date - i day: i=0 -> today
     return today;
 }
 
-// pasted code, revision needed
+var get = function(){
+	var request = new XMLHttpRequest();
+	request.open("GET", "https://api.mongolab.com/api/1/databases/fitnessdb/collections/fitnessrecord?apiKey=7IhjRbwiIXy1Y2kOl6HE2LiNqQf_LQEl");
+	request.send(null);
+    return request;
+}
+
 window.onload = function() {
     var body=document.getElementsByTagName('section')[0];
     var tbl=document.createElement('table');
@@ -59,26 +65,7 @@ window.onload = function() {
     tbl.appendChild(tbdy);
     body.appendChild(tbl);
     
-    // add in record
-    var request = new XMLHttpRequest();
-    request.open("GET", "https://api.mongolab.com/api/1/databases/fitnessdb/collections/fitnessrecord?s={\"name\":1}&apiKey=7IhjRbwiIXy1Y2kOl6HE2LiNqQf_LQEl");
-    request.send(null);
-    record = JSON.parse(request.response);
-  
+    response = get();
 }
 
-    //for(var i=0;i<3;i++){
-    //    var tr=document.createElement('tr');
-    //    for(var j=0;j<2;j++){
-    //        if(i==2 && j==1){
-    //            break
-    //        } else {
-    //            var td=document.createElement('td');
-    //            td.appendChild(document.createTextNode('\u0020'))
-    //                i==1&&j==1?td.setAttribute('rowSpan','2'):null;
-    //            tr.appendChild(td)
-    //        }
-    //    }
-    //    tbdy.appendChild(tr);
-    //}
- 
+
