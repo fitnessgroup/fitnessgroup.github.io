@@ -52,7 +52,7 @@ var get = function(){
     // header row for date
     var tr = document.createElement('tr'); // create line
     date = new Date();
-    dateArray = new Array(7); // store date value
+    dateArray = new Array(8); // store date value
     dateArray[7] = getTxtDate(date,0);
     for (var i=6; i>0; i--) { // get date value
         dateArray[i] = getTxtDate(date, 1);
@@ -90,7 +90,7 @@ var get = function(){
                         var td = document.createElement('td');
                         var text = "";
                         for (var k=0; k<records.length; k++){
-                            if(ids[i] == records[k].name && dateArray[j] == records[k].date){
+                            if(ids[i] == records[k].name && dateArray[j+1] == records[k].date){
                                 text += records[k].exercise + '\n' + records[k].duration +'\n';
                             }
                         }
