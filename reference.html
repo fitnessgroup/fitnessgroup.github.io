@@ -5,6 +5,17 @@ layout: default
         <h2>
             <a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>健身资料</h2>
 
+        <h4>上肢训练</h4>
+        <ul id="span4">
+            {% for post in site.categories.upper %}
+            <!-- <li> -->
+            <h5>
+                <a id="posts" class="anchor" href="{{ post.url }}">{{ post.title }}<span class="octicon octicon-link"></span></a></h5>
+            <p>{{ post.excerpt }}</p>
+            <!-- </li> -->
+            {% endfor %}
+        </ul>
+
         <h4>训练计划</h4>
         <ul id="span4">
             {% for post in site.categories.plans %}

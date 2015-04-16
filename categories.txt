@@ -1,0 +1,18 @@
+upper - 上肢训练
+
+plans - 训练计划
+
+abs - 马甲线，人鱼线
+
+bodyfat - 体脂
+
+hiit - HIIT
+
+weight - 无氧训练
+
+injury - 小心受伤
+
+running - 跑跑步，走走路
+
+bodyweight - 自重训练
+
