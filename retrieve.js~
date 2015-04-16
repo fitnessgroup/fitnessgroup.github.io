@@ -46,7 +46,7 @@ var get = function(){
     var body=document.getElementsByTagName('section')[0];
     var tbl=document.createElement('table');
     tbl.style.fontSize ="small";
-    tbl.style.width='70%';
+    tbl.style.width='60%';
     tbl.setAttribute('border','1');
     var tbdy=document.createElement('tbody');
     // header row for date
