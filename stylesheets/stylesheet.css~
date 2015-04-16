@@ -443,5 +443,5 @@ Small Device Styles
  * Form input stype
  * *********************/
 input, select, textarea, input[type=button] {
-    font-size: 200%;
+    font-size: 150%;
 }
