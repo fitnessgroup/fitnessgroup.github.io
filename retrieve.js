@@ -91,10 +91,14 @@ var get = function(){
                         var text = "";
                         for (var k=0; k<records.length; k++){
                             if(ids[i] == records[k].name && dateArray[j+1] == records[k].date){
-                                text += records[k].exercise + '\n' + records[k].duration +'\n';
+                                //text += records[k].exercise + '\n' + records[k].duration +'\n';
+                                td.appendChild(document.createTextNode(records[k].exercise));
+                                td.appendChild(document.createElement('br'));
+                                td.appendChild(document.createTextNode(records[k].duration));
+                                td.appendChild(document.createElement('br'));
                             }
                         }
-                        td.appendChild(document.createTextNode(text));
+                        //td.appendChild(document.createTextNode(text));
                         tr.appendChild(td);
                     }
                     tbdy.appendChild(tr);
