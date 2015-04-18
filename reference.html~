@@ -5,8 +5,32 @@ layout: default
         <h2>
             <a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>健身资料</h2>
 
+        <h3>目录</h3>
+        <h4><a href=#upper>-- 上肢训练</a></h4>
+        <h4><a href=#plans>-- 训练计划</a></h4>
+        <h4><a href=#abs>-- 上肢训练</a></h4>
+        <h4><a href=#bodyfat>-- 体脂</a></h4>
+        <h4><a href=#hiit>-- High Intensity Interval Training</a></h4>
+        <h4><a href=#weight>-- 无氧训练</a></h4>
+        <h4><a href=#injury>-- Warm up and Cool down - 小心受伤</a></h4>
+        <h4><a href=#running>-- 跑跑步，走走路</a></h4>
+        <h4><a href=#bodyweight>-- 自重训练</a></h4>
+
+        <hr>
+
+        <h4>上肢训练</h4>
+        <ul id="upper">
+            {% for post in site.categories.upper %}
+            <!-- <li> -->
+            <h5>
+                <a id="posts" class="anchor" href="{{ post.url }}">{{ post.title }}<span class="octicon octicon-link"></span></a></h5>
+            <p>{{ post.excerpt }}</p>
+            <!-- </li> -->
+            {% endfor %}
+        </ul>
+
         <h4>训练计划</h4>
-        <ul id="span4">
+        <ul id="plans">
             {% for post in site.categories.plans %}
             <!-- <li> -->
             <h5>
@@ -18,7 +42,7 @@ layout: default
 
 
         <h4>马甲线，人鱼线</h4>
-        <ul id="span4">
+        <ul id="abs">
             {% for post in site.categories.abs %}
             <!-- <li> -->
             <h5>
@@ -29,7 +53,7 @@ layout: default
         </ul>
 
         <h4>体脂</h4>
-        <ul>
+        <ul id="bodyfat">
             {% for post in site.categories.bodyfat %}
             <!-- <li> -->
             <h5>
@@ -40,7 +64,7 @@ layout: default
         </ul>
 
         <h4>High Intensity Interval Training</h4>
-        <ul>
+        <ul id="hiit">
             {% for post in site.categories.hiit %}
             <!-- <li> -->
             <h5>
@@ -51,7 +75,7 @@ layout: default
         </ul>
 
         <h4>无氧训练</h4>
-        <ul>
+        <ul id="weight">
             {% for post in site.categories.weight %}
             <!-- <li> -->
             <h5>
@@ -62,7 +86,7 @@ layout: default
         </ul>
  
         <h4>Warm up and Cool down - 小心受伤</h4>
-        <ul>
+        <ul id="injury">
             {% for post in site.categories.injury %}
             <!-- <li> -->
             <h5>
@@ -73,7 +97,7 @@ layout: default
         </ul>
 
         <h4>跑跑步，走走路</h4>
-        <ul>
+        <ul id="running">
             {% for post in site.categories.running %}
             <!-- <li> -->
             <h5>
@@ -84,7 +108,7 @@ layout: default
         </ul>
 
         <h4>自重训练</h4>
-        <ul>
+        <ul id="bodyweight">
             {% for post in site.categories.bodyweight %}
             <!-- <li> -->
             <h5>

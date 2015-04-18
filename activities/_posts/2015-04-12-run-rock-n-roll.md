@@ -5,3 +5,4 @@ redirect_to:
  - http://runrocknroll.competitor.com/raleigh
 ---
 
+Rock 'n' Roll Raleigh Marathon & ½ Marathon presented by WRAL benefiting The V Foundation for Cancer Research
