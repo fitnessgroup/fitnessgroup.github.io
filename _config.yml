@@ -10,7 +10,7 @@ navigation:
       url: /reference.html
     - title: 地区活动
       url: /activities.html
-    - title: 录入健身纪录
-      url: /log.html
-    - title: 查看健身纪录
-      url: /exerciseslog.html
+#    - title: 录入健身纪录
+#      url: /log.html
+#    - title: 查看健身纪录
+#      url: /exerciseslog.html
